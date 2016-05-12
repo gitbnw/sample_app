@@ -54,3 +54,7 @@ group :development do
   gem 'spring'
 end
 
+group :production do
+  gem 'execjs'
+  gem 'therubyracer'
+end
