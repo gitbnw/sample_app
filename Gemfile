@@ -40,8 +40,6 @@ group :development do
     gem 'capistrano-secrets-yml', '~> 1.0.0'
 end
 
-gem 'puma'
-
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -58,4 +56,5 @@ end
 group :production do
   gem 'execjs'
   gem 'therubyracer'
+  gem 'puma'
 end
